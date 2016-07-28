@@ -7,5 +7,5 @@
     $operator_name 	= "";			//服务名称
     $bucket_name 	= "";			//操作员
     $password       = "";			//密码 
-    $tasks['url']  = ""             //需要拉取的url
+    $tasks['url']   = "";            //需要拉取的url
 
