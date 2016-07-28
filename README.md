@@ -7,4 +7,4 @@
     $operator_name 	= "";			//服务名称
     $bucket_name 	= "";			//操作员
     $password       = "";			//密码 
-'''
+
