@@ -1,6 +1,6 @@
 <?php
-$operator_name 	= "";			//服务名称
-$bucket_name 	= "";			//操作员
+$operator_name 	= "";			//操作员
+$bucket_name 	= "";			//服务名称
 $password       = "";			//密码
 //任务数组
 	$tasks = array(
@@ -35,7 +35,7 @@ $postdata = array(
           }
 //认证头信息
 	$headers[] = "Authorization: UPYUN ".$operator_name.":".$signature;
-	$headers[] = "Date: ".gmdate("l d F Y H:i:s")." GMT";
+	$headers[] = "Date: ".gmdate("D, d M Y H:i:s \G\M\T");
 //发送请求
 	$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, "http://p0.api.upyun.com/pretreatment/");
