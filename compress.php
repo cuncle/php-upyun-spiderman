@@ -1,6 +1,6 @@
 <?php
 $operator_name 	= "";			//操作员
-$bucket_name 	  = "";			//服务名称
+$bucket_name 	= "";			//服务名称
 $password       = "";			//密码
 //任务数组
 	$tasks = array(
