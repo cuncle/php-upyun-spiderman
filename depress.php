@@ -5,7 +5,7 @@ $password       = "";			//密码
 //任务数组
 	$tasks = array(
 	array(
-		"sources" => "/result/abc.zip",  //需要解压的文件
+	  "sources" => "/result/abc.zip",  //需要解压的文件
 	  "save_as" => "/upyun/cxiang/"        //保存路径
 	)
 	        );
