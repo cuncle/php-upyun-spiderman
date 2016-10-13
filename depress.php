@@ -6,7 +6,7 @@ $password       = "";			//密码
 	$tasks = array(
 	array(
 	  "sources" => "/result/abc.zip",  //需要解压的文件
-	  "save_as" => "/upyun/cxiang/"        //保存路径
+	  "save_as" => "/upyun/"        //保存路径
 	)
 	        );
 //1.组装好的参数转换为 JSON 字符串 2.对 JSON 字符串进行 base64 编码处理。
